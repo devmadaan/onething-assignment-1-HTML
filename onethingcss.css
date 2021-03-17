@@ -1,0 +1,116 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.navbar {
+    transition: all 0.4s;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+}
+
+
+.textdecoration{
+	text-decoration:none !important;
+}
+.orangetext{
+	color:#e53617;
+}
+.orangebg{
+	background:#e53617;
+}
+.mobilelogotext{
+	font-size:30px;
+}
+.desktoplogotext{
+	margin-left: 100px;
+	padding-top:60px;
+}
+.desktoplogotext span{
+	font-size:35px;
+}
+.banner-heading{
+	font-size:7vh;
+}
+@media only screen and (max-width: 600px) {
+  .banner-heading{
+	font-size:4vh;
+}
+}
+.bottomborder-hr{
+	border-bottom:3.5px solid #e53617;
+}	
+.banner-text{
+	font-size:22px;
+}
+
+.below-banner-text{
+	font-size:22px;
+}
+
+.below-banner-heading{
+	font-size:7vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .below-banner-heading{
+	font-size:4vh;
+}
+}
+
+.below-banner-heading-2{
+	font-size:5vh;
+}
+@media only screen and (max-width: 600px) {
+  .below-banner-heading-2{
+	font-size:4vh;
+}
+}
+
+.section3-heading{
+	font-size:7vh;
+}
+@media only screen and (max-width: 600px) {
+  .section3-heading{
+	font-size:4vh;
+}
+}
+
+.award-text{
+	font-size:3.5vh;
+	font-weight:500;
+}
+
+.footer{
+	height:100vh;
+}
+
+.footer-logo{
+	font-size:35px;
+}
+
+.footer-text{
+	font-size:8vh;
+}
+.footer-line-text{
+	color:#fc9784;
+}
+
+@media only screen and (max-width: 600px) {
+ .footer-text{
+	font-size:3vh;
+}
+}
